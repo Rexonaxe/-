@@ -1,0 +1,16 @@
+.block{
+  width:342px;
+  height:194px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px dashed rgb(151, 71, 255);
+  border-radius: 5px;
+}
+.frame{
+  position:relative;
+  padding: 20px;
+  margin:20px;
+}
