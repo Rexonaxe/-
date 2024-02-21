@@ -1,7 +1,7 @@
 $grey: rgb(34, 34, 34);
 
 
-@media (max-width: 3840px) {
+@media (max-width: 7680px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -29,14 +29,36 @@ $grey: rgb(34, 34, 34);
   nav {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 32px 40px 0 40px;
     max-width: 100vw;
   }
 
+  span:hover {
+    background-color: rgb(73, 73, 73);
+    border-radius: 2px;
+    color: white;
+  }
+
+  .nav-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    width: 100%;
+  }
+
 
   .nav-name{
-    display: block;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
   }
 
   .nav-frame {
@@ -46,12 +68,6 @@ $grey: rgb(34, 34, 34);
     padding-top: 9px;
     padding-bottom: 8px;
     flex-direction: row;
-  }
-
-  .nav-frame__text:hover {
-    background-color: rgb(73, 73, 73);
-    border-radius: 2px;
-    color: white;
   }
 
   .nav-frame__text {
@@ -134,13 +150,14 @@ $grey: rgb(34, 34, 34);
 }
 
 @media (max-width: 1279px) {
-  nav {
+  .nav-container {
     flex-direction: column;
-    align-content: space-around;
-    padding: 25px 5px 10px 5px;
+    align-content: space-between;
+    padding: 0 5px 10px 5px;
   }
 
   .nav-name {
+    position: relative;
     display: flex;
     width: inherit;
     justify-content: center;
@@ -174,14 +191,15 @@ $grey: rgb(34, 34, 34);
 }
 
 @media (max-width: 750px) {
-  nav {
-    flex-direction: inherit;
-    align-content: space-between;
-    padding: 15px 5px 10px 5px;
+
+  .nav-container {
+    flex-direction: column;
+    align-content: space-evenly;
+    padding: 0 5px 10px 5px;
   }
 
   .nav-name {
-    display: flex;
+    position: relative;
     width: inherit;
     justify-content: center;
     padding-top: 10px;
