@@ -53,12 +53,17 @@ $grey: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
     position: absolute;
+    width: 400px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
+  }
+
+  .nav-name__link{
+    z-index: 2;
   }
 
   .nav-frame {
@@ -68,6 +73,7 @@ $grey: rgb(34, 34, 34);
     padding-top: 9px;
     padding-bottom: 8px;
     flex-direction: row;
+    z-index: 2;
   }
 
   .nav-frame__text {
