@@ -28,7 +28,8 @@ $grey: rgb(34, 34, 34);
 
   nav {
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0;
     justify-content: space-around;
     padding: 32px 40px 0 40px;
     max-width: 100vw;
@@ -156,12 +157,15 @@ $grey: rgb(34, 34, 34);
 }
 
 @media (max-width: 1279px) {
+
   .nav-container {
     flex-direction: column;
     align-content: space-between;
     padding: 0 5px 10px 5px;
   }
 
+
+  
   .nav-name {
     position: relative;
     display: flex;
@@ -199,9 +203,7 @@ $grey: rgb(34, 34, 34);
 @media (max-width: 750px) {
 
   .nav-container {
-    flex-direction: column;
     align-content: space-evenly;
-    padding: 0 5px 10px 5px;
   }
 
   .nav-name {

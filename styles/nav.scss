@@ -79,16 +79,14 @@ $grey: rgb(34, 34, 34);
     text-transform: uppercase;
   }
   .nav-number {
-    margin-top: 7px;
+    margin-top: 8px;
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 1279px) {
   .nav-container {
-    flex-direction: column;
     align-content: space-between;
-    padding: 0 5px 10px 5px;
   }
 
   .nav-name {
@@ -96,7 +94,7 @@ $grey: rgb(34, 34, 34);
     display: flex;
     width: inherit;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 16px;
   }
 
   .nav-frame__text {
@@ -128,9 +126,6 @@ $grey: rgb(34, 34, 34);
   }
 
   .nav-name {
-    position: relative;
-    width: inherit;
-    justify-content: center;
     padding-top: 10px;
   }
 

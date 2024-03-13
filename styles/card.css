@@ -21,7 +21,8 @@
 
   nav {
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0;
     justify-content: space-around;
     padding: 32px 40px 0 40px;
     max-width: 100vw; }
@@ -164,9 +165,7 @@
     left: 28px; } }
 @media (max-width: 750px) {
   .nav-container {
-    flex-direction: column;
-    align-content: space-evenly;
-    padding: 0 5px 10px 5px; }
+    align-content: space-evenly; }
 
   .nav-name {
     position: relative;
