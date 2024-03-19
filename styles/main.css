@@ -1,5 +1,3 @@
-$grey: rgb(34, 34, 34);
-
 .promo-content {
   height: 680px;
   display: flex;
@@ -9,7 +7,7 @@ $grey: rgb(34, 34, 34);
 .promo-text_frame {
   display: flex;
   flex-direction: column;
-  color: $grey;
+  color: rgb(34, 34, 34);
   background: rgb(241, 246, 252);
   justify-content: center;
   padding-left: 40px;
@@ -33,34 +31,27 @@ $grey: rgb(34, 34, 34);
   margin-top: 40px;
   padding: 16px 36px 16px 20px;
   max-width: 400px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   color: #222;
   border: 1px solid rgb(34, 34, 34);
   background: linear-gradient(to right, #222 50%, #fff 50%) bottom right;
   background-size: 200% 100%;
-
   cursor: pointer;
-  transition: all .3s linear;
-
-
-  svg path {
-    fill: #222222;
-    transition: all .3s ease-in-out;
-    line-height: 0;
-  }
-
-  &:hover {
-    color: white;
-    background-position: bottom left;
-
-    svg path {
-      fill: white;
-    }
-  }
+  transition: all 0.3s linear;
+}
+.promo-button svg path {
+  fill: #222222;
+  transition: all 0.3s ease-in-out;
+  line-height: 0;
+}
+.promo-button:hover {
+  color: white;
+  background-position: bottom left;
+}
+.promo-button:hover svg path {
+  fill: white;
 }
 
 .promo-button_text {
@@ -73,14 +64,13 @@ $grey: rgb(34, 34, 34);
   overflow: hidden;
   width: 60%;
   height: 100%;
-
-  img {
-    scale: 110%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 80% 0;
-  }
+}
+.promo-content_image img {
+  scale: 110%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 80% 0;
 }
 
 .main__catalog {
@@ -88,3 +78,4 @@ $grey: rgb(34, 34, 34);
   margin-top: 52px;
 }
 
+/*# sourceMappingURL=main.css.map */

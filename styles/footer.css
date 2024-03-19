@@ -1,5 +1,3 @@
-$grey: rgb(34, 34, 34);
-
 @media (max-width: 7680px) {
   footer {
     display: flex;
@@ -7,10 +5,9 @@ $grey: rgb(34, 34, 34);
     justify-content: space-between;
     margin: 0;
     padding: 32px 40px;
-    background-color: $grey;
+    background-color: rgb(34, 34, 34);
     color: white;
   }
-
   .footer_name {
     color: white;
     font-size: 32px;
@@ -19,7 +16,6 @@ $grey: rgb(34, 34, 34);
     text-align: left;
     text-transform: uppercase;
   }
-
   .footer-contacts {
     font-size: 20px;
     font-weight: 500;
@@ -30,11 +26,9 @@ $grey: rgb(34, 34, 34);
     flex-direction: column;
     gap: 20px;
   }
-
-  .footer__paragraph{
+  .footer__paragraph {
     margin-bottom: 12px;
   }
-
   .footer-contacts__data {
     font-family: Roboto;
     font-size: 18px;
@@ -44,12 +38,10 @@ $grey: rgb(34, 34, 34);
     text-align: left;
     margin-top: 12px;
   }
-
   .footer_name__link {
     padding: 0;
   }
 }
-
 @media (max-width: 1279px) {
   .footer_name {
     font-size: 24px;
@@ -57,14 +49,12 @@ $grey: rgb(34, 34, 34);
     left: 28px;
   }
 }
-
 @media (max-width: 750px) {
   .footer_name {
     font-size: 20px;
     top: 23px;
     left: 23px;
   }
-
   .footer-contacts {
     font-size: 12px;
   }
@@ -72,14 +62,12 @@ $grey: rgb(34, 34, 34);
     font-size: 10px;
   }
 }
-
 @media (max-width: 499px) {
   .footer_name {
     font-size: 16px;
     top: 20px;
     left: 20px;
   }
-
   .footer-contacts {
     font-size: 10px;
   }
@@ -87,3 +75,5 @@ $grey: rgb(34, 34, 34);
     font-size: 8px;
   }
 }
+
+/*# sourceMappingURL=footer.css.map */

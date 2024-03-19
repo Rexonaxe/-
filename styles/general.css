@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: auto;
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  min-height: 100vh;
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a, a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+span:hover {
+  background-color: rgb(73, 73, 73);
+  border-radius: 2px;
+  color: white;
+}
+
+main {
+  margin: 0 0 auto 0;
+}
+
+@media (max-width: 1279px) {
+  h1 {
+    font-size: 1.55em !important;
+  }
+}
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.35em !important;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */

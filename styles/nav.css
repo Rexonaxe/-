@@ -1,6 +1,3 @@
-$grey: rgb(34, 34, 34);
-
-
 nav {
   display: flex;
   position: sticky;
@@ -34,7 +31,7 @@ nav {
 
 .nav-frame__text {
   position: relative;
-  color: $grey;
+  color: rgb(34, 34, 34);
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
@@ -45,7 +42,7 @@ nav {
 }
 
 .nav-name {
-  color: $grey;
+  color: rgb(34, 34, 34);
   font-size: 32px;
   font-weight: 500;
   line-height: 38px;
@@ -68,14 +65,12 @@ nav {
   padding: 1px;
 }
 
-
 @media (max-width: 1279px) {
   .nav-container {
     flex-direction: column;
     align-content: space-between;
     padding: 0 5px 10px 5px;
   }
-
   .nav-name {
     position: relative;
     display: flex;
@@ -83,52 +78,43 @@ nav {
     justify-content: center;
     padding-top: 15px;
   }
-
   .nav-frame__text {
     font-size: 1.25em;
   }
-
   .nav-frame {
     box-sizing: border-box;
     justify-content: space-evenly;
     width: 100%;
     padding: 0 !important;
   }
-
   .nav-number {
     display: none;
   }
 }
-
 @media (max-width: 750px) {
   .nav-container {
     align-content: space-evenly;
   }
-
   .nav-name {
     position: relative;
     width: inherit;
     justify-content: center;
     padding-top: 10px;
   }
-
   .nav-frame {
     box-sizing: border-box;
     justify-content: space-evenly;
     width: 100%;
   }
-
   .nav-frame__text {
     font-size: 1.05em;
     margin-left: 10px;
     margin-right: 10px;
   }
-
   .nav-number {
     display: none;
   }
 }
-
 @media (max-width: 499px) {
   nav {
     flex-direction: row;
@@ -136,7 +122,6 @@ nav {
     position: sticky;
     top: 10px;
   }
-
   .nav-frame {
     text-align: center;
     padding: 0;
@@ -144,18 +129,17 @@ nav {
     justify-content: space-evenly;
     box-sizing: content-box;
   }
-
   .nav-frame__text {
     font-size: 0.85em;
     margin-left: 5px;
     margin-right: 5px;
   }
-
   .nav-number, .nav-name {
     display: none;
   }
-
   .nav-name__link {
     font-size: 0.75em;
   }
 }
+
+/*# sourceMappingURL=nav.css.map */

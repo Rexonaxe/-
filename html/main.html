@@ -5,15 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="">
-    <title>Document</title>
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/slider.css">
+    <title>Главная</title>
 </head>
 <body>
 <div class="page">
@@ -40,18 +41,149 @@
     <main>
         <article class="promo-content">
             <div class="promo-text_frame">
-                <span class="promo-text_frame__description1">Тротуарная Плитка Для Создания Прочных Покрытий!</span>
-                <span class="promo-text_frame__description2">Создайте элегантные пешеходные зоны с нашей высококачественной плиткой</span>
+                <div class="promo-text_frame__description1">Тротуарная Плитка Для Создания Прочных Покрытий!</div>
+                <div class="promo-text_frame__description2">Создайте элегантные пешеходные зоны с нашей
+                    высококачественной плиткой
+                </div>
                 <div class="promo-button">
-                    <span class="promo-button_text"></span>
-                    <div class="promo-button_right-arrow"></div>
+                    <div class="promo-button_text">Посмотреть товар</div>
+                    <svg width="23.000000" height="18.000000" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M18.58 7.5L12.29 1.2L13.7 -0.21L22.41 8.5L13.7 17.2L12.29 15.79L18.58 9.5L1 9.5C0.43 9.5 0 9.06 0 8.5C0 7.93 0.43 7.5 1 7.5L18.58 7.5Z" fill-opacity="1.000000"/>
+                    </svg>
+
                 </div>
             </div>
-            <div class="promo-content_image"></div>
-        </article>
-        <article>
-            <section>
+            <div class="promo-content_image">
+                <img src="/assets/promo.jpeg" alt="">
+            </div>
 
+        </article>
+        <article class="main__catalog">
+            <section class="slider">
+                <div class="slider-head">
+                    <div class="slider-head__title">
+                        Тротуарная плитка
+                    </div>
+                    <div class="slider-head__nav">
+                        <div class="slider-head__nav__button slider__prev-button">
+                            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect rx="19.500000" width="39.000000" height="39.000000"
+                                      transform="translate(0.500000 0.500000)" stroke="#222222"
+                                      stroke-opacity="1.000000" stroke-width="1.000000"/>
+                                <path d="M22.7 14.7L16.7 20.7L16 20L16.7 19.29L22.7 25.29L21.29 26.7L14.58 20L21.29 13.29L22.7 14.7Z"
+                                      fill-opacity="1.000000"/>
+
+                            </svg>
+
+                        </div>
+                        <div class="slider-head__nav__button slider__next-button">
+                            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect rx="19.500000" width="39.000000" height="39.000000"
+                                      transform="translate(0.500000 0.500000)" stroke="#222222"
+                                      stroke-opacity="1.000000" stroke-width="1.000000"/>
+                                <path d="M17.29 14.7L23.29 20.7L24 20L23.29 19.29L17.29 25.29L18.7 26.7L25.41 20L18.7 13.29L17.29 14.7Z"
+                                      fill-opacity="1.000000"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-container">
+                    <div class="slider-items">
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-item__img" src="/assets/plitka1.png" alt="">
+                            <div class="slider-item__info">
+                                <div class="slider-item__title">
+                                    Калифорния
+                                </div>
+                                <div class="slider-item__price">
+                                    345 ₽/м2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-show_more-button">
+                    показать все
+                </div>
             </section>
             <section>
 
@@ -62,7 +194,27 @@
         </article>
     </main>
     <footer>
+        <p class="footer_name">
+            <a class="footer_name__link" href="card.html" target="_blank">
+                отделочник
+            </a>
+        </p>
+        <div class="footer-contacts">
+            <div class="footer-contacts__address-frame">
+                <p class="footer__paragraph">Адрес:</p>
+                <span class="footer-contacts__data">-80.94813, -163.88679 прикоп 5 см</span>
+            </div>
+            <div class="footer-contacts__numbers-frame">
+                <p class="footer__paragraph">Номер телефона:</p>
+                <span class="footer-contacts__data">7 (999) 999 99 99</span>
+            </div>
+            <div class="footer-contacts__hours-frame">
+                <p class="footer__paragraph">Режим работы:</p>
+                <span class="footer-contacts__data">пн-пт: 8:00 - 16:00<br>сб: 9:00 - 13:00</span>
+            </div>
+        </div>
     </footer>
 </div>
+<script src="/js/slider.js"></script>
 </body>
 </html>
