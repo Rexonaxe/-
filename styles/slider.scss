@@ -65,38 +65,6 @@
   transition: 0.3s ease-in-out all;
 }
 
-.slider-item {
-
-}
-
-.slider-item__img {
-  width: 290px;
-  height: 290px;
-  border-radius: 13px;
-  background: rgb(245, 247, 250);
-  object-position: 50% 50%;
-  object-fit: scale-down;
-  transition: 0.25s linear all;
-
-  &:hover {
-    background: rgb(228, 232, 237);
-  }
-}
-
-.slider-item__info {
-  margin-top: 12px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.slider-item__price {
-  margin-top: 8px;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-}
-
 .slider-show_more-button {
   box-sizing: border-box;
   border: 1px solid rgb(34, 34, 34);

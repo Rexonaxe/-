@@ -1,0 +1,50 @@
+.catalog {
+  display: flex;
+}
+
+.catalog-filters {
+  min-width: 290px;
+}
+
+.filter-name {
+  color: rgb(34, 34, 34);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.filter-categories {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.filter-price {
+  margin-top: 18px;
+}
+
+.filter-price__numbers {
+  display: flex;
+  align-items: center;
+
+  input {
+    width: 100%;
+  }
+}
+
+.tire {
+  margin: 0 7px;
+  min-width: 12px;
+  height: 2px;
+  background: rgb(217, 217, 217);
+}
+

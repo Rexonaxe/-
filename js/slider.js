@@ -8,7 +8,7 @@ for (let i = 0; i < sliders.length; i++) {
 
 function init_slider(slider) {
     let slider_items_container = slider.querySelector(".slider-items");
-    let slider_items = Array.from(slider_items_container.querySelectorAll(".slider-item"));
+    let slider_items = Array.from(slider_items_container.querySelectorAll(".item-card"));
     let prevButton = slider.querySelector(".slider__prev-button");
     let nextButton = slider.querySelector(".slider__next-button");
     let slideCount = slider_items.length;
@@ -32,7 +32,7 @@ function init_slider(slider) {
         updateSlider(temp);
     }
 
-    const el_slide = slider.querySelector(".slider-item");
+    const el_slide = slider.querySelector(".item-card");
     let slideWidth = el_slide.clientWidth;
 
     new ResizeObserver(() => {
@@ -41,7 +41,7 @@ function init_slider(slider) {
     }).observe(el_slide);
 
 // Функция для обновления отображения слайдера
-    function updateSlider(prevDot) {
+    function updateSlider() {
         slider_items_container.style.translate = `${-slideIndex * (slideWidth + 20)}px`;
     }
 }

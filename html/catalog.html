@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Raleway:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/catalog.css">
+    <link rel="stylesheet" href="/styles/item_card.css">
+    <link rel="stylesheet" href="/styles/uikit.css">
+    <link rel="stylesheet" href="/styles/slider-track.css">
+    <title>Главная</title>
+</head>
+<body>
+<div class="page">
+    <header>
+        <nav class="nav-frame">
+            <a class="nav-frame__text hover" href="main.html" target="_blank">Главная</a>
+            <a class="nav-frame__text hover" href="card.html" target="_blank">Услуги</a>
+            <a class="nav-frame__text hover" href="#contacts" target="_blank">Контакты</a>
+        </nav>
+        <h1 class="nav-name">
+            <a class="nav-name__link" href="main.html" target="_blank">отделочник</a>
+        </h1>
+        <a class="nav-number hover" href="tel:+79999999999">7 (999) 999 99 99</a>
+    </header>
+
+    <main class="container catalog">
+        <div class="catalog-filters">
+            <p class="filter-name">Категория</p>
+            <div class="filter-categories">
+                <div>
+                    <input type="radio" name="category" id="category-1">
+                    <label for="category-1">Тротуарная плитка</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category-2">
+                    <label for="category-2">Брусчатка</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category-3">
+                    <label for="category-3">Бордюр</label>
+                </div>
+            </div>
+            <p class="filter-name">Цена за м2</p>
+            <div class="filter-price">
+                <div class="filter-price__numbers">
+                    <input type="number" id="range1">
+                    <div class="tire"></div>
+                    <input type="number" id="range2">
+                </div>
+                <div class="filter-price__track">
+                    <div class="slider-track"></div>
+                    <input type="range" min="0" max="100" value="0" id="track-1" oninput="slideOne()">
+                    <input type="range" min="0" max="100" value="100" id="track-2" oninput="slideTwo()">
+                </div>
+
+            </div>
+            <script src="/js/slider-track.js"></script>
+        </div>
+        <div class="catalog-container">
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+            <div class="item-card">
+                <img class="item-card__img" src="/assets/plitka1.png" alt="">
+                <div class="item-card__info">
+                    <div class="slider-item__title">
+                        Калифорния
+                    </div>
+                    <div class="item-card__price">
+                        345 ₽/м2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer_name">
+            <a class="footer_name__link" href="card.html" target="_blank">
+                отделочник
+            </a>
+        </p>
+        <div class="footer-contacts">
+            <div class="footer-contacts__address-frame">
+                <p class="footer__paragraph">Адрес:</p>
+                <p class="footer-contacts__data">-80.94813, -163.88679 прикоп 5 см</p>
+            </div>
+            <div class="footer-contacts__numbers-frame">
+                <p class="footer__paragraph">Номер телефона:</p>
+                <a href="tel:+79999999999" class="footer-contacts__data">7 (999) 999 99 99</a>
+            </div>
+            <div class="footer-contacts__hours-frame">
+                <p class="footer__paragraph">Режим работы:</p>
+                <p class="footer-contacts__data">пн-пт: 8:00 - 16:00<br>сб: 9:00 - 13:00</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="/js/slider.js"></script>
+</body>
+</html>

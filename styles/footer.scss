@@ -5,43 +5,35 @@ $grey: rgb(34, 34, 34);
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin: 0;
     padding: 32px 40px;
     background-color: $grey;
     color: white;
+    margin: 60px 0 0;
   }
 
   .footer_name {
     color: white;
     font-size: 32px;
     font-weight: 500;
-    line-height: 38px;
-    text-align: left;
     text-transform: uppercase;
   }
 
   .footer-contacts {
     font-size: 20px;
     font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0;
-    text-align: left;
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
 
-  .footer__paragraph{
+  .footer__paragraph {
     margin-bottom: 12px;
   }
 
   .footer-contacts__data {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 21px;
-    letter-spacing: 0;
-    text-align: left;
     margin-top: 12px;
   }
 
@@ -53,16 +45,12 @@ $grey: rgb(34, 34, 34);
 @media (max-width: 1279px) {
   .footer_name {
     font-size: 24px;
-    top: 28px;
-    left: 28px;
   }
 }
 
 @media (max-width: 750px) {
   .footer_name {
     font-size: 20px;
-    top: 23px;
-    left: 23px;
   }
 
   .footer-contacts {
@@ -76,10 +64,7 @@ $grey: rgb(34, 34, 34);
 @media (max-width: 499px) {
   .footer_name {
     font-size: 16px;
-    top: 20px;
-    left: 20px;
   }
-
   .footer-contacts {
     font-size: 10px;
   }

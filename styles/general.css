@@ -10,11 +10,9 @@ body {
 }
 
 .page {
-  overflow: hidden;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-content: stretch;
-  min-height: 100vh;
 }
 
 .container {
@@ -22,15 +20,19 @@ body {
   padding-right: 40px;
 }
 
-a, a:link {
+a {
   color: inherit;
   text-decoration: none;
 }
 
-span:hover {
+.hover {
+  padding: 6px 14px;
+}
+.hover:hover {
   background-color: rgb(73, 73, 73);
   border-radius: 2px;
   color: white;
+  cursor: pointer;
 }
 
 main {

@@ -1,0 +1,31 @@
+.item-card {
+
+}
+
+.item-card__img {
+  width: 290px;
+  height: 290px;
+  border-radius: 13px;
+  background: rgb(245, 247, 250);
+  object-position: 50% 50%;
+  object-fit: scale-down;
+  transition: 0.25s linear all;
+
+  &:hover {
+    background: rgb(228, 232, 237);
+  }
+}
+
+.item-card__info {
+  margin-top: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.item-card__price {
+  margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
